@@ -1,7 +1,58 @@
-.App {
-  text-align: center;
+.select{
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  background-color: #1b3252;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.paagination_button{
+  width: 120px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  background-color: #1b3252;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.paagination_button:hover{
+  background-color: rgb(5, 5, 69);
+}
+.search::placeholder{
+  color: white;
 }
 
+.search{
+  font-weight: 600;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  background-color: #1b3252;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 95%;
+}
+.filter{
+  display: flex;
+  justify-content: space-between;
+}
+.option{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +78,12 @@
 .App-link {
   color: #61dafb;
 }
-
+@media screen and (max-width: 650px) {
+.cardimg{
+width: 90% !important;
+height: 200px !important;
+}
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
